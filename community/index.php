@@ -22,7 +22,7 @@ if(!isset($_SESSION['user'])){
     </div>
     <h1>Мунзик X Официальное Сообщество</h1>
     <p>Спеши пока Мельница не подехала! Чем болше нас, тем больше сас!</p>
-    <a href="https://example.com" class="join-button">Join the Community</a>
+    <a href="https://example.com" class="join-button">Будет доступно в конце апреля!</a>
 </div>
 </body>
 </html>
