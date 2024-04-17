@@ -12,7 +12,7 @@ if(!isset($_SESSION['user'])){
   <meta charset="UTF-8">
   <title>Архив Лунтика Х</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style3.css">
+<link rel="stylesheet" href="../style3.css">
 
 </head>
 <body>
