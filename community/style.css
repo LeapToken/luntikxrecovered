@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #616060;
+}
+
+.container {
+    text-align: center;
+    background: #424242;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    width: 300px;
+}
+
+.image-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.gamejolt-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -10px;
+    right: 0;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.join-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.join-button:hover {
+    background-color: #45a049;
+}
