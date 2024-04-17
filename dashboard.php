@@ -28,6 +28,7 @@ if(!isset($_SESSION['user'])){
       height: 100vh;
       margin: 0;
       background-color: #f0f0f0;
+      overflow: hidden;
     }
 
     #welcome-text {
@@ -83,11 +84,62 @@ if(!isset($_SESSION['user'])){
       font-size: 1.2em;
       color: #666;
     }
+    
+    @font-face {
+      font-family: 'Luntik-Bold';
+      src: url('https://cdn.glitch.global/937b658a-f843-41b3-ada5-8bfedfc7ea84/luntik_bold.otf?v=1703021453793') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    body, html {
+      font-family: 'Luntik-Bold', sans-serif;
+      height: 100%;
+      margin: 0;
+      background-color: #f0f0f0;
+      overflow-x: hidden;
+    }
+    #game-tab {
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      height: 80vh;
+      background-color: #333;
+      color: #fff;
+      transition: bottom 0.5s ease-in-out;
+      z-index: 1000;
+    }
+    #tab-button {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 60px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      z-index: 1100;
+    }
+    #tab-content {
+      padding: 20px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
 
   <div id="welcome-text">Добро Пожаловать в Архив Лунтика Х</div>
+  
+  <button id="tab-button" onclick="toggleGameTab()">🎮</button>
+  <div id="game-tab">
+    <div id="tab-content">
+      <h1>Мини Игра :3</h1>
+      <iframe src="./game.html" width="480" height="360" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+  </div>
 
   <a class="greeting" style="color:black; text-decoration:none; font-size: 30px;">Привет, <?php echo htmlspecialchars($name); ?>!</a>
   <a class="logout-link" href="logout.php" style="color:black; text-decoration:none; font-size: 30px;"><span class="bo-left">ВЫЙТИ</span></a>
@@ -120,6 +172,19 @@ if(!isset($_SESSION['user'])){
   </div>
 
   <div class="help-text">Если вы нашли ошыбку на сайте, сообщите мне! :)</div>
+  
+<script>
+  let isTabOpen = false;
+  function toggleGameTab() {
+    const gameTab = document.getElementById('game-tab');
+    if (isTabOpen) {
+      gameTab.style.bottom = '-100%';
+    } else {
+      gameTab.style.bottom = '0';
+    }
+    isTabOpen = !isTabOpen;
+  }
+</script>
 
 </body>
 </html>
