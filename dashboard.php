@@ -122,4 +122,14 @@ if(!isset($_SESSION['user'])){
   <div class="help-text">Если вы нашли ошыбку на сайте, сообщите мне! :)</div>
 
 </body>
+   <script>
+      function togglePasswordVisibility() {
+          var passwordInput = document.querySelector('[name="password"]');
+          if (passwordInput.type === 'password') {
+              passwordInput.type = 'text';
+          } else {
+              passwordInput.type = 'password';
+          }
+      }
+   </script>
 </html>
