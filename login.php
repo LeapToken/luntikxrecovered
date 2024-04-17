@@ -27,8 +27,10 @@
          <label for="email">Почта</label>
          <input type="text" name="email" autocomplete="off">
          <label for="password">Пароль</label>
-         <input type="password" name="password">
-         <button type="button" onclick="togglePasswordVisibility()" class="toggle-password" aria-label="Show password as plain text. Warning: this will display your password on the screen.">&#128065;</button>
+         <div class="input-group">
+             <input type="password" name="password" id="password">
+             <button type="button" onclick="togglePasswordVisibility()" class="toggle-password">&#128065;</button>
+         </div>
          <input type="submit" value="Войти">
       </form>
       <div class="link">
@@ -67,10 +69,36 @@
   background-color: rgba(22, 160, 133, .7);
 }
 
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.input-group input[type="password"] {
+  border: none;
+  padding: 8px 10px;
+  padding-right: 40px; /* make room for the button */
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .toggle-password {
-    background: #ff0000; /* bright red background for visibility */
-    color: #ffffff; /* white text */
-    border: 1px solid #000000; /* black border */
+  position: absolute;
+  right: 5px;
+  border: none;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.input-group input[type="password"]:focus {
+  outline: none;
 }
 
 .card {
@@ -194,7 +222,7 @@ document.onkeydown = (e) => {
 };
 
 function togglePasswordVisibility() {
-    var passwordInput = document.querySelector('input[name="password"]');
+    var passwordInput = document.querySelector('.input-group input[name="password"]');
     if (passwordInput.type === 'password') {
         passwordInput.type = 'text';
     } else {
