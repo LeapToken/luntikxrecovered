@@ -3,7 +3,10 @@ $('.show-to').click(function(){
 });
 
 function togglePasswordVisibility() {
-    var passwordInput = document.getElementById('password');
-    var type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-    passwordInput.setAttribute('type', type);
+    var passwordInput = document.querySelector('[name="password"]');
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+    } else {
+        passwordInput.type = 'password';
+    }
 }
