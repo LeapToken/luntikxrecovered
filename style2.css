@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Luntik-Bold';
+    src: url('https://cdn.glitch.global/937b658a-f843-41b3-ada5-8bfedfc7ea84/luntik_bold.otf?v=1703021453793') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{margin: 0px;}
+.top-bar{
+  background: #000;
+  margin: 0px;
+  padding: 0px;
+}
+.top-bar #title{
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Luntik-Bold', sans-serif;
+  padding: 10px 100px;
+}
+
+.bo-left{border-left: solid 1px #444444;  padding: 0 10px;}
+.bo-right{border-right: solid 1px #444444;  padding: 0 10px;}
+.linkHF:hover{
+  cursor:pointer;
+  color: #FFFFFF;
+}
+.right{
+  float:right; clear:right;
+}
+
+.dis-on-mobile{
+  display: none!important;
+}
+
+@media screen and (max-width: 750px){
+  .top-bar #title{
+     padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .dis-one-web{
+    display: none;
+    width: 100%!important;
+    background: #444;
+  }
+  
+  .dis-on-mobile{
+    display: inline-block!important;
+  }
+}
+
+.contianer{
+  float: right;
+  width: 80%;
+  margin: 10px 5%;
+  padding: 20px 5%;
+  -moz-box-shadow: 0 0 12px #555;
+  -webkit-box-shadow: 0 0 12px #555;
+  box-shadow: 0 0 12px #555;
+  border-radius: 10px;
+ background: #f8f8f8;
+  border: none;
+  border: solid 1px #FFF;
+}
+
+.contianer h2{
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Luntik-Bold', sans-serif;
+}
+
+hr.style-two {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contianer h3{
+  color:#5a5a5a;
+  font-size: 14px;
+}
+.right{ float: right;}
+.mini-font{
+  font-size: 9px;
+}
+
+.banner {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 0px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn {
+  background-color: #721c24;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
