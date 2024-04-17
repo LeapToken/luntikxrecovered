@@ -16,7 +16,7 @@
       <form method="post" action="login_action.php">
          <h2 class="title">Авторизация</h2>
          <div class="tip">
-            ОТКРЫТАЯ БЕТА v2.4
+            Версия v3.0
          </div>
          <?php
          if(isset($_SESSION['error'])){
