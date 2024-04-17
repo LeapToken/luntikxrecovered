@@ -119,7 +119,7 @@ if(!isset($_SESSION['user'])){
     </button>
   </div>
 
-  <div class="help-text">If you ran into issues, contact me!</div>
+  <div class="help-text">Если вы нашли ошыбку на сайте, сообщите мне! :)</div>
 
 </body>
 </html>
