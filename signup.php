@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
          <h2 class="title">Регистрация</h2>
          <div class="tip">
-            ОТКРЫТАЯ БЕТА v2.4
+            Версия v3.0
          </div>
          <?php
          if(isset($_SESSION['error'])){
