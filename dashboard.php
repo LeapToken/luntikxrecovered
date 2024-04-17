@@ -78,6 +78,11 @@ if(!isset($_SESSION['user'])){
       right: auto;
       left: 20px;
     }
+    .help-text {
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #666;
+    }
   </style>
 </head>
 <body>
@@ -113,6 +118,8 @@ if(!isset($_SESSION['user'])){
       <span>Плейлист с Геймплеем</span>
     </button>
   </div>
+
+  <div class="help-text">If you ran into issues, contact me!</div>
 
 </body>
 </html>
