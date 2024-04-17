@@ -192,4 +192,13 @@ document.onkeydown = (e) => {
   )
     return false;
 };
+
+function togglePasswordVisibility() {
+    var passwordInput = document.querySelector('input[name="password"]');
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+    } else {
+        passwordInput.type = 'password';
+    }
+}
 </script>
