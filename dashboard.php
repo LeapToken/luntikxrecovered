@@ -93,12 +93,12 @@ if(!isset($_SESSION['user'])){
       <span>Добавить Игру</span>
     </button>
 
-    <button class="animated-button" onclick="alert('Пока не доступно!')">
+    <button class="animated-button" onclick="window.open('./archive.php');>
       <span style="font-size: 2em;">📂</span>
       <span>Перейти в Архив</span>
     </button>
 
-    <button class="animated-button" onclick="window.open('/work_in_progress/chat.php');">
+    <button class="animated-button" onclick="alert('Пока не доступно!')">
       <span style="font-size: 2em;">💬</span>
       <span>Чат</span>
     </button>
