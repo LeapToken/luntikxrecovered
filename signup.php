@@ -55,7 +55,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          <label for="email">Почта</label>
          <input type="text" name="email" autocomplete="off">
          <label for="password">Пароль</label>
-         <input type="password" name="password">
+         <div class="input-group">
+             <input type="password" name="password" id="password">
+             <button type="button" onclick="togglePasswordVisibility()" class="toggle-password">&#128065;</button>
+         </div>
          <input type="submit" value="Зарегистрироваться">
       </form>
       <div class="link">
@@ -104,6 +107,38 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.input-group input[type="password"] {
+    border: none;
+    padding: 8px 10px;
+    padding-right: 40px; /* make room for the button */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 5px;
+    border: none;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.input-group input[type="password"]:focus {
+    outline: none;
 }
 
 .icon-cog {
@@ -213,4 +248,13 @@ document.onkeydown = (e) => {
   )
     return false;
 };
+
+function togglePasswordVisibility() {
+    var passwordInput = document.querySelector('.input-group input[name="password"]');
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+    } else {
+        passwordInput.type = 'password';
+    }
+}
 </script>
