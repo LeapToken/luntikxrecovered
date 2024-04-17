@@ -68,13 +68,9 @@
 }
 
 .toggle-password {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 0 5px;
-    position: relative;
-    top: -2px;
+    background: #ff0000; /* bright red background for visibility */
+    color: #ffffff; /* white text */
+    border: 1px solid #000000; /* black border */
 }
 
 .card {
