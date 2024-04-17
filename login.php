@@ -28,6 +28,7 @@
          <input type="text" name="email" autocomplete="off">
          <label for="password">Пароль</label>
          <input type="password" name="password">
+         <button type="button" onclick="togglePasswordVisibility()" class="toggle-password" aria-label="Show password as plain text. Warning: this will display your password on the screen.">&#128065;</button>
          <input type="submit" value="Войти">
       </form>
       <div class="link">
@@ -64,6 +65,16 @@
 
 .btn:hover {
   background-color: rgba(22, 160, 133, .7);
+}
+
+.toggle-password {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0 5px;
+    position: relative;
+    top: -2px;
 }
 
 .card {
