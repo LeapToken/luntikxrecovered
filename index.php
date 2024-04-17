@@ -4,5 +4,5 @@ session_start();
 if(!isset($_SESSION['user'])){
    header("location: login.php");
 }else{
-    header("location: dashboar.php");
+    header("location: dashboard.php");
 }
