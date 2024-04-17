@@ -6,4 +6,3 @@ if(!isset($_SESSION['user'])){
 }else{
     header("location: dashboard.php");
 }
-<!DOCTYPE html>
