@@ -137,7 +137,7 @@ if(!isset($_SESSION['user'])){
   <div id="game-tab">
     <div id="tab-content">
       <h1>Мини Игра :3</h1>
-      <iframe src="./game.html" width="480" height="360" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <h1>Скоро!</h1>
     </div>
   </div>
 
