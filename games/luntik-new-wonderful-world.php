@@ -34,7 +34,7 @@ if(!isset($_SESSION['user'])){
   <body>
 
 <div class="contianer">
-  <h2>Лунтик: Новый прекрасный мир</h2>
+  <h2>Лунтик: Новый прекрасный мир (Mr.Reber)</h2>
   <p style="font-weight:bold;color:red;">*Я использую mega.nz в качестве хранилища файлов, если ссылки не работают, используйте vpn или свяжитесь со мной!*</p>
   <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/s6xxSBJS#F4zrZ2O5FjbJjaK4UDWtDqi8YYBLE3gHjQpIuVcHGSw', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
 <hr class="style-two">
