@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ...
         $_SESSION['success'] = "Регистрация прошла успешно!";
         // Redirect or perform any other action after successful registration
-        header("Location: success_page.php");
+        header("Location: signup_action.php");
         exit();
     }
 }
