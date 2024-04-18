@@ -16,7 +16,7 @@
       <form method="post" action="signup_action.php">
          <h2 class="title">Регистрация</h2>
          <div class="tip">
-            ОТКРЫТАЯ БЕТА v2.4
+            Версия v3.0
          </div>
          <?php
          if(isset($_SESSION['error'])){
