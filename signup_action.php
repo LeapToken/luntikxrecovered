@@ -26,4 +26,3 @@ if($result['status'] == "success"){
    $_SESSION['error'] = $result['message'];
    header("location: signup.php");
 }
-
