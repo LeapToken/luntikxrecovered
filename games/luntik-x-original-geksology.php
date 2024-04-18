@@ -34,7 +34,7 @@ if(!isset($_SESSION['user'])){
   <body>
 
 <div class="contianer">
-  <h2>Лунтик Х: Original Geksology</h2>
+  <h2>Лунтик Х: Original Geksology (Mr.Reber)</h2>
   <p style="font-weight:bold;color:red;">*Я использую mega.nz в качестве хранилища файлов, если ссылки не работают, используйте vpn или свяжитесь со мной!*</p>
   <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/Y74QUJRb#Tqj_AqxdutqHSbfK9CnOEXQ2ADnWRxcZIItA45zh10s', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
 <hr class="style-two">
