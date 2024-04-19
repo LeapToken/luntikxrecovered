@@ -36,7 +36,7 @@ if(!isset($_SESSION['user'])){
 <div class="contianer">
   <h2>Лунтик Х Возвращение (FedotovGames)</h2>
   <p style="font-weight:bold;color:red;">*Я использую mega.nz в качестве хранилища файлов, если ссылки не работают, используйте vpn или свяжитесь со мной!*</p>
-  <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/ompz2ITC#0S3rifSL8SWGl1JO1eWEtfkvvbDDqgcVe-9AsHSdeJI', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
+  <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/5nRDmTLa#2kh2pOJMUeO0rnpREJ7L00dqvnBOCgvWx0HWbqeDfqw', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
 <hr class="style-two">
   <body>
 
