@@ -36,7 +36,7 @@ if(!isset($_SESSION['user'])){
 <div class="contianer">
   <h2>Лунтик Х Проклятая Печенька (_LUNTIKX777)</h2>
   <p style="font-weight:bold;color:red;">*Я использую mega.nz в качестве хранилища файлов, если ссылки не работают, используйте vpn или свяжитесь со мной!*</p>
-  <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/JyoyRBQR#lIBUw8So4gtH2_Q1aAxv06YTLNhN01sJxvgFY4ZegOs', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
+  <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/ZuJADZRY#9SAG9tuNuAMfWt0up3qnJiXL6ToVEa15SXgpwYI9yq8', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
 <hr class="style-two">
   <body>
 
