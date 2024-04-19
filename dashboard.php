@@ -147,7 +147,7 @@ if(!isset($_SESSION['user'])){
   <div id="game-tab">
     <div id="tab-content">
       <h1>Мини Игра :3</h1>
-      <iframe src="https://glitter-tough-daughter.glitch.me/" width="482" height="412" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <iframe src="https://turbowarp.org/1003129547/embed?addons=pause,gamepad,mute-project&interpolate&limitless" width="482" height="393" allowfullscreen allowtransparency allow="autoplay; fullscreen; camera; microphone; gamepad"></iframe>
     </div>
   </div>
 
