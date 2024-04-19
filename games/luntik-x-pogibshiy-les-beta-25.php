@@ -36,7 +36,7 @@ if(!isset($_SESSION['user'])){
 <div class="contianer">
   <h2>Лунтик Х Погибшый Лес Beta 2.5 (BorisRus)</h2>
   <p style="font-weight:bold;color:red;">*Я использую mega.nz в качестве хранилища файлов, если ссылки не работают, используйте vpn или свяжитесь со мной!*</p>
-  <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/0up0zZCR#n22Zs49IqjEMoPXbmannR6WtQpS-HB01NpTQsWc1LtI', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
+  <button class="button delete mini-font right, style-two" onclick=" window.open('https://mega.nz/file/UqZxEBYD#yHL5wP8lGaMS3-8IWS7a38Qx_jPgDgIUtWR7u0al1Zw', '_blank'); return false;">СКАЧАТЬ ИГРУ</button>
 <hr class="style-two">
   <body>
 
