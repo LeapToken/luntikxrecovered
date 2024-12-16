@@ -165,11 +165,6 @@ if(!isset($_SESSION['user'])){
       <span>Перейти в Архив</span>
     </button>
 
-    <button class="animated-button" onclick="alert('Пока не доступно!')">
-      <span style="font-size: 2em;">💬</span>
-      <span>Чат</span>
-    </button>
-
     <button class="animated-button" onclick="window.open('/community/index.php');">
       <span style="font-size: 2em;">🌐︎</span>
       <span>Официальное Сообщество</span>
