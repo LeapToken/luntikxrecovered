@@ -44,6 +44,7 @@ h2 {
   will-change: transform;
   background-color: #ffffff;
   transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
 }
 
 .item:hover {
@@ -83,4 +84,24 @@ h2 {
   font-size: 12px;
   margin-top: 8px;
   color: #888888;
+}
+
+.hidden {
+  display: none;
+}
+    
+#search-bar {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #7e3af2; /* Purple outline */
+  border-radius: 6px; /* Optional: Rounded corners */
+  outline: none; /* Remove default focus outline */
+  transition: all 0.3s ease-in-out; /* Smooth focus effect */
+}
+
+#search-bar:focus {
+  border-color: #5e2bbd; /* Darker purple on focus */
+  box-shadow: 0 0 8px rgba(126, 58, 242, 0.6); /* Optional: Add focus glow */
 }
